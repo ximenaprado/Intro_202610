@@ -1,4 +1,4 @@
-from Semana5.ejercicio2 import clasificar_temperatura
+from Semana5.Ejercicio2 import clasificar_temperatura
 
 def test_fria():
     assert clasificar_temperatura(5) == "Fría", \
