@@ -1,4 +1,4 @@
-from semana5.Ejercicio1 import validar_contraseña
+from Semana5.Ejercicio1 import validar_contraseña
 
 def test_contraseña_correcta():
     assert validar_contraseña(["123", "abc123"]) == "Acceso concedido", \
